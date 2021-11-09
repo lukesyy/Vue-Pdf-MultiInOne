@@ -1,7 +1,7 @@
 <template>
 	<div>
-		<el-button type="primary" @click="openPdf('a4')">点击预览pdf多合一效果(A4)</el-button>
-		<el-button type="primary" @click="openPdf('a5')">点击预览pdf多合一效果(A5)</el-button>
+		<el-button type="primary" @click="openPdf('a4')">点击下载pdf多合一(A4)</el-button>
+		<el-button type="primary" @click="openPdf('a5')">点击下载pdf多合一(A5)</el-button>
 		<div id="pop" v-if="show">
 			<template v-for="item in pdfUrlArr">
 				<pdf :src="item.pdfUrl" v-for="i in item.page" :key="i + numPagesAll - 1" :page="i"></pdf>
