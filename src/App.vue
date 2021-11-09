@@ -1,7 +1,7 @@
 <!--
  * @Date: 2021-11-09 10:10:51
  * @LastEditors: LiJinGang
- * @LastEditTime: 2021-11-09 11:43:52
+ * @LastEditTime: 2021-11-09 12:10:51
 -->
 <template>
 	<div id="app">
@@ -10,7 +10,7 @@
 			<PDF />
 		</div>
 		<div class="box">
-			<div class="title">无预览 沉默式下载</div>
+			<div class="title">无预览 静默下载</div>
 			<PDFF />
 		</div>
 	</div>
